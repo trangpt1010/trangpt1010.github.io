@@ -1,0 +1,18 @@
+<div class="instagram"></div>
+
+<script src="jquery.js"></script>
+<script src="dist/instagram.min.js"></script>
+<script>
+jQuery(function($) {
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    console.log(response);
+  });
+  $('.instagram').instagram({
+    hash: 'love',
+    clientId: 'YOUR-CLIENT-ID-HERE'
+  });
+});
+</script>
