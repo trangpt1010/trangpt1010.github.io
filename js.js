@@ -63,4 +63,9 @@ $( document ).ready(function() {
     }
     
    })
+    
+   $(document).bind("contextmenu",function(){
+     return false;
+   });
+    
 });
