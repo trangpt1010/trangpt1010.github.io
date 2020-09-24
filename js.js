@@ -14,7 +14,7 @@ $( document ).ready(function() {
       anh1=true;
     }
     
-   })
+   });
    
    $('img').mousedown(function()
    {
@@ -30,7 +30,7 @@ $( document ).ready(function() {
       anh1=true;
     }
     
-   })
+   });
     
    $('img').on('touchstart', function()
    {
@@ -46,7 +46,7 @@ $( document ).ready(function() {
       anh1=true;
     }
     
-   })
+   });
     
        $('img').on('touchend', function()
    {
@@ -62,10 +62,21 @@ $( document ).ready(function() {
       anh1=true;
     }
     
-   })
+   });
     
    $(document).bind("contextmenu",function(){
      return false;
    });
+    
+    
+   $(document).bind("taphold",function(e){
+     e.preventDefault();
+     return false;
+   });
+    
+    $('img').bind("taphold",function(e){
+     e.preventDefault();
+     return false;
+    });
     
 });
