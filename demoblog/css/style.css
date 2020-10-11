@@ -1,0 +1,131 @@
+html {
+	box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+body,h1,h2,h3,h4,h5 {
+	font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+    margin: 10px 0;
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0;
+}
+
+.bl-background {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.bl-header{
+	text-align:center;
+	padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+.bl-tag {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center
+}
+
+.bl-entrys{
+	width:90%;
+	display:block;
+	margin: 0 auto;
+}
+
+.bl-entry{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #000!important;
+    background-color: #fff!important;
+}
+
+.bl-container {
+    padding: 0.01em 16px;
+}
+
+.bl-container:after,
+.bl-container:before,
+.bl-row:after,
+.bl-row:before {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.bl-opacity {
+    opacity: 0.60;
+}
+.bl-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+	padding: 12px 24px!important;
+	border: 1px solid #ccc!important;
+	color: #000!important;
+    background-color: #fff!important;
+}
+
+.bl-col{
+	width:50%;
+	float:left;
+}
+
+.bl-comment{
+	padding: 12px 24px!important;
+	float:right;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.bl-footer{
+	color: #fff!important;
+    background-color: #616161!important;
+	padding-top: 32px!important;
+    padding-bottom: 32px!important;
+	margin-top: 16px!important;
+	text-align:center;
+}
+
+.bl-disabled{
+	cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.bl-black{
+	color: #fff!important;
+    background-color: #000!important;
+}
